@@ -43,7 +43,7 @@ class Uuid implements UuidInterface, ServiceProviderInterface
     /**
      * @inheritdoc
      */
-    public function generate(): string
+    public function generate()
     {
         return UuidGenerator::uuid4()->toString();
     }
