@@ -20,5 +20,5 @@ interface UuidInterface
      *
      * @return string
      */
-    public function generate(): string;
+    public function generate();
 }
